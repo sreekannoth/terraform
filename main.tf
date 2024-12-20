@@ -14,7 +14,7 @@ provider "linux" {
     password = "ubuntu123"
 }
 
-resource "linux_file" "checkfile" {
+resource "linux_file" "testfile1" {
     path = "/tmp/testdir1920"
     owner = 1000
     group = 1000
